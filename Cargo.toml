@@ -1,0 +1,17 @@
+[package]
+name = "kel103"
+version = "0.1.0"
+edition = "2024"
+readme = "README.md"
+license = "MIT"
+keywords = ["serial", "electronic-load", "kel103"]
+repository = "https://github.com/MaticianInc/rust_kel103"
+description = "A crate for controlling KEL103 Electronic Loads"
+
+[dependencies]
+serialport = "4.7.1"
+thiserror = "2.0.12"
+
+
+[dev-dependencies]
+clap = { version = "4.5.35", features = ["derive"] }
